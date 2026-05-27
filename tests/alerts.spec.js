@@ -13,7 +13,7 @@ await d.accept()
  
 })
 
-test.only("confirm alert", async({page})=>
+test("confirm alert", async({page})=>
 {
  await page.goto("https://the-internet.herokuapp.com/javascript_alerts")
 
